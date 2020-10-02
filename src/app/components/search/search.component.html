@@ -1,0 +1,11 @@
+
+<div class="row">
+
+    <div class="col">
+        <input type="text" class="form-control" (keyup) = "buscar(artista.value)" #artista placeholder="Buscar artista..">
+    </div>
+</div>
+
+ 
+
+<app-tarjetas  [items] = "busquedaArtista"></app-tarjetas>
